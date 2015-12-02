@@ -1,10 +1,15 @@
 # plato
 
-[![Build Status](https://travis-ci.org/es-analysis/plato.png?branch=master)](https://travis-ci.org/es-analysis/plato)
-
-[![Codeship Status for es-analysis/plato](https://www.codeship.io/projects/479c7b90-f024-0131-6150-66d8ca7dad4d/status)](https://www.codeship.io/projects/27326)
+[![Build Status](https://img.shields.io/travis/Lingvokot/es6-plato.svg)](https://travis-ci.org/Lingvokot/es6-plato)
 
 Visualize JavaScript source complexity with plato.
+
+## Example report on this project
+
+Generated with this command:
+`plato -d plato-out -r --jshint .jshintrc lib/*.js lib/cli/ lib/models/ lib/reporters/ lib/templates/`
+
+You can see it here: [http://Lingvokot.github.com/es6-plato/examples/plato/]
 
 ## Example report on popular projects
 
@@ -13,7 +18,9 @@ Visualize JavaScript source complexity with plato.
  - [marionettejs](http://es-analysis.github.com/plato/examples/marionette/)
 
 ## Installation
-Install the module with: `npm install -g plato`
+Install the module with: `npm install -g git+https://github.com/Lingvokot/es6-plato.git`
+
+(module is not published in *npm* yet)
 
 ## Usage
 
@@ -94,6 +101,7 @@ plato.inspect(files, outputDir, options, callback);
 
 ## Release History
 
+  - 1.5.0 Use ESLint via CLI API. Supporting eslint plugins. 
   - 1.3.0 Merged 107,130,128,119,114. Numerous bug fixed.
     - Minor bumped for changes to parsing of files passed. Technically a breaking change but effectively a bug fix + feature so bumping minor.
   - 1.2.1 Bumping versions for jshint and lodash
@@ -127,4 +135,3 @@ Licensed under the MIT license.
 
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/es-analysis/plato/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
