@@ -9,7 +9,7 @@ Visualize JavaScript source complexity with plato.
 Generated with this command:
 `plato -d plato-out -r --jshint .jshintrc lib/*.js lib/cli/ lib/models/ lib/reporters/ lib/templates/`
 
-You can see it here: [http://Lingvokot.github.com/es6-plato/examples/plato/]
+You can see it here: http://lingvokot.github.io/es6-plato/examples/plato/
 
 ## Example report on popular projects
 
@@ -101,7 +101,7 @@ plato.inspect(files, outputDir, options, callback);
 
 ## Release History
 
-  - 1.5.0 Use ESLint via CLI API. Supporting eslint plugins. 
+  - 1.5.0 Use ESLint via CLI API. Supporting eslint plugins.
   - 1.3.0 Merged 107,130,128,119,114. Numerous bug fixed.
     - Minor bumped for changes to parsing of files passed. Technically a breaking change but effectively a bug fix + feature so bumping minor.
   - 1.2.1 Bumping versions for jshint and lodash
