@@ -48,13 +48,13 @@
     "grunt-contrib-watch": "~0.6.1"
   },
   "dependencies": {
-    "escomplex-js": "git+https://github.com/Lingvokot/escomplex-js.git",
+    "escomplex-js": "git+https://github.com/Lingvokot/escomplex-js.git#810f1a556171b4f661f204b0c0d449998ca1e3c8",
     "posix-getopt": "~1.1.0",
     "lodash": "~2.4.1",
     "fs-extra": "~0.15.0",
     "jshint": "^2.7.0",
     "glob": "~4.3.5",
     "complexity-report": "~0.10.3",
-    "eslint": "^1.5.1"
+    "eslint": "^2.0.0"
   }
 }
