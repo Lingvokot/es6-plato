@@ -55,6 +55,6 @@
     "jshint": "^2.7.0",
     "glob": "~4.3.5",
     "complexity-report": "~0.10.3",
-    "eslint": "^2.0.0"
+    "eslint": "^3.0.0"
   }
 }
